@@ -29,15 +29,15 @@ const SignUp = () => {
             <form onSubmit={handleSignUp}>
                 <label>
                     Name:
-                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} style={{ backgroundColor: '#cceeff', border: '1px solid black' }} required />
                 </label>
                 <label>
                     Email:
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} style={{ backgroundColor: '#cceeff', border: '1px solid black' }} required />
                 </label>
                 <label>
                     Password:
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} style={{ backgroundColor: '#cceeff', border: '1px solid black' }} required />
                 </label>
                 <button type="submit">Sign Up</button>
             </form>

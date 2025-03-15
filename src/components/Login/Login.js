@@ -35,13 +35,13 @@ const Login = () => {
             <form onSubmit={handleLogin}>
                 <label>
                     Email:
-                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                    <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} style={{ backgroundColor: '#cceeff', border: '1px solid black' }}  required />
                 </label>
                 <label>
                     Password:
-                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+                    <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} style={{ backgroundColor: '#cceeff',  border: '1px solid black' }} required />
                 </label>
-                <button type="submit">Login</button>
+                <button type="submit">🔓 Login</button>
             </form>
             <button onClick={() => history.push('/signup')}>Sign Up</button>
         </div>

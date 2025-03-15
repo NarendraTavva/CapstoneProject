@@ -71,7 +71,7 @@ const UserProfile = () => {
 
     return (
         <div>
-            <h2>User Profiles</h2>
+            <h2> &#128101;User Profiles</h2>
             {user && user.role === 'admin' && (
                 <div>
                     <button onClick={() => setShowForm(!showForm)}>

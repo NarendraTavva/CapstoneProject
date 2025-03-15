@@ -84,7 +84,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h2>Scrum Teams</h2>
+            <h2>👩‍💻Scrum Teams</h2>
             {user && user.role === 'admin' && (
                 <div>
                     <button onClick={() => setShowForm(!showForm)}>
@@ -154,8 +154,8 @@ const Dashboard = () => {
             <ul>
                 {scrums.map((scrum) => (
                     <li key={scrum.id}>
-                        {scrum.name}
-                        <button onClick={() => handleGetDetails(scrum.id)}>Get Details</button>
+                        {scrum.name}&nbsp; &nbsp;
+                        <button onClick={() => handleGetDetails(scrum.id)}> Get Details</button>
                     </li>
                 ))}
             </ul>

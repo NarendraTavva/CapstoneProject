@@ -45,7 +45,7 @@ const Nav = () => {
               <Link to="/profiles">Profiles</Link>
             </li>
             <li>
-              <button onClick={handleLogout}>Logout</button>
+              <button onClick={handleLogout}>👋Logout</button>
             </li>
           </>
         ) : (
